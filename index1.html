@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shravani Jadhao</title>
+      <link rel="icon" href="logo1.jpeg" size="16x16" style="border-radius: 50%;" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/546008f642.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+
+      <!-- Mobile View -->
+      <nav>
+        <div class="firstNav"><img src="logo1.jpeg" alt="Logo" height="60px"></div>
+        <div class="secondNav">
+          <ul id="menuList">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="Shravani S Jadhao.pdf">Resume</a></li>
+          </ul>
+        </div>
+        <div id="menu-icon" class="menu-icon"><i class="fa-solid fa-bars" onclick="toggleMenu()"></i></div> 
+      </nav>
+
+      <div class="header-text">
+        <p>Web Devoloper</p>
+        <h1>Hi, I'm <span>Shravani Jadhao</span> a fronted devoloper</h1>
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img2.jpeg" height="300px" />
+          </div>
+          <div class="about-col-2">
+
+            <h1 class="Sub-title">About me</h1>
+            <p>
+              A highly motivated professional with expertise in front-end
+              devolopement, back-end web development, and databases. Experienced
+              in responsive web designing. Proficient in interacting with
+              github. Skilled in building web applications with a focus on user
+              experience. Strong problem-solving abilities, communication
+              skills, and a passion for continuous learning
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-link" onclick="opentab('experience')">Experience</p>
+              <p class="tab-link" onclick="opentab('education')">Education</p>
+            </div>
+            <!-- Skills -->
+            <div class="tab-contents active-tab id="skills">
+              <ul>
+                <li>
+                  <span>Front-end Devolopement</span
+                  ><br />HTML,CSS,JavaScript,react,Tailwind CSS(A CSS
+                  Framework), Bootstrap(CSS Framework)
+                </li>
+                <li><span>Back-end Devolopement</span><br />Java,C,JDBC</li>
+                <li><span>Dtabases</span><br />MySQL</li>
+                <li><span>Other Skills</span><br />DSA,OOPs,Git & Github</li>
+              </ul>
+            </div>
+            <!-- Experience -->
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <div class="first">
+                    <p><span>ICEICO Technologies</span>,Nagpur</p>
+                    <p>June 2024 - November 2024</p>
+                  </div>
+                  <h5>Web Devoloper Intern</h5>
+                  <p>
+                    Developed responsive websites using HTML, CSS, and
+                    JavaScript, ensuring cross-browser compatibility. as well as
+                    Contributed to real-world projects, improving coding,
+                    problem-solving, and teamwork skill
+                  </p>
+                </li>
+                <li>
+                  <div class="first">
+                    <p><span>InnovEdge</span></p>
+                    <p>September 2023 - March 2024</p>
+                  </div>
+                  <h5>Intern</h5>
+                  <p>
+                    A cloud based platform that bridges the gap between
+                    classroom learning and the demands of the professional
+                    world. Our platform is designed to equip students with
+                    exceptional learning capabilities on cutting-edge
+                    technologies
+                  </p>
+                </li>
+                <li>
+                  <div class="first">
+                    <p><span>GAO Tek Inc.</span></p>
+                    <p>January 2024 - April 2024</p>
+                  </div>
+                  <h5>Technical Support Intern</h5>
+                  <p>
+                    GAOTek Inc. is a leading US based supplier of test and
+                    measurement equipment for fiber optic, telecommunications,
+                    networks, PSTN, CATV, environment, chemical and bio-medical
+                    test and measurement instruments.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!-- Education -->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <p>
+                    <span>Babasaheb Naik College of Engineering ,Pusad</span>
+                  </p>
+                  <div class="first">
+                    <p>B.E. (Computer Science & Engineering)</p>
+                    <p>2020 - 2024</p>
+                  </div>
+                  <p>8.7 SGPA</p>
+                </li>
+                <li>
+                  <p><span>G. M. Junior College ,Pusad</span></p>
+                  <div class="first">
+                    <p>12th</p>
+                    <p>2019 - 2020</p>
+                  </div>
+                  <p>66.31%</p>
+                </li>
+                <li>
+                  <p><span>Shree Shivaji High School ,Pusad</span></p>
+                  <div class="first">
+                    <p>10th</p>
+                    <p>2017 - 2018</p>
+                  </div>
+                  <p>73.21%</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Section -->
+     <div id="services">
+      <div class="container">
+        <div class="Project-row">
+          <div class="project-col-1">
+            <h1 class="Sub-title">Projects</h1>
+            <div class="projectname">
+              <li class="Heading">Road Accident Prediction with Highway Assistance</li>
+              <p>2023 - 2024</p>
+            </div>
+            <p>Highway assistance refers to the
+              services and support provided to
+              motorists on highways and major
+              roadways. It encompasses a range
+              of functions designed to ensure
+              the safety and well-being of
+              drivers and passengers such as
+              </p>
+              <ul>
+                <li class="items">Emergency Support</li>
+                <li class="items">Traffic Management </li>
+                <li class="items">Safety Measures</li>
+                <li class="items">Communication Services</li>
+                <li class="items">Roadside Assistance:</li>
+              </ul>
+          </div>
+          <div class="project-col-2">
+            <img src="img1.jpg" height="300px">
+          </div>
+      </div>
+      </div>
+     </div>
+
+     <!-- Contact Section -->
+      <div id="contact">
+        <div class="container">
+          <div class="contact-row">
+            <div class="contact-left">
+              <h1 class="Sub-title">Contact Me</h1>
+              <p><spn><i class="fa-solid fa-envelope"></i></spn> shravanijadhao23@gmail.com</p>
+              <p><span><i class="fa-solid fa-phone"></i></span> 9322389925</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in
+                /shravani-jadhao-694792282"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Shravanijadhao23"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Shravanijadhao23"></a>
+              </div>
+               <div class="downld-cv">
+                 <a href="Shravani S Jadhao.pdf" download class="btn-download">Download CV</a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <label>Enter Your Name</label>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <br>
+                <label>Enter Your Email</label>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <br>
+                <label>Write Meggase</label>
+                <textarea name="Message" row="8" placeholder="Your Message"></textarea>
+                <br>
+                <div class="btn">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+       <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Shravani Jadhao</p>
+       </div>
+
+    <script>
+      let menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+
+      function toggleMenu(){
+        if(menuList.style.maxHeight == "0px"){
+          menuList.style.maxHeight = "300px";
+        }
+        else{
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-link");
+      var tabContents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabContent of tabContents){
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <!-- <form name="submit-to-google-sheet">
+      <input name="email" type="email" placeholder="Email" required>
+      <button type="submit">Send</button>
+    </form> -->
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzlzT3C2_O6fPEidHe0C8NM4nqvB3K_8bkO2G_J0dDtvBUSR4WfD5Qp4nv7WhlD0ZL-/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Messege sent successfully";
+            setTimeout(() => {
+              msg.innerHTML ="";
+            },5000)
+            form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
