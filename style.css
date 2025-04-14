@@ -241,6 +241,8 @@ nav ul li a:hover {
 .about-col-1 img {
   border-radius: 15px;
   width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .about-col-2 {
@@ -326,6 +328,11 @@ html {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.visit-site {
+  margin-top: 20px;
 }
 
 .project-col-1 {
@@ -562,6 +569,8 @@ html {
     width: 90%;
     height: 200px;
     padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
   .about-col-2 {
     margin: 20px 20px;
@@ -605,7 +614,7 @@ html {
   }
 
   .project-col-1 {
-    margin: 20px 20px;
+    margin: 20px 10px;
   }
 
   .project-col-1 h1 {
@@ -736,4 +745,19 @@ html {
   font-size: 25px;
   margin-right: 20px;
   display: none;
+}
+
+.visit-site {
+  color: white;
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #c62300;
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 20%;
 }
